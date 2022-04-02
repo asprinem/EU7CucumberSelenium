@@ -12,7 +12,7 @@ import org.junit.Assert;
 public class LoginStepDefs {
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() throws InterruptedException {
-        String url = ConfigurationReader.get("url");
+        String url = ConfigurationReader.get("url_intabella");
         //WebDriver driver = Driver.get();
         Driver.get().get(url);
 
